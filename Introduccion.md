@@ -24,9 +24,4 @@ Entre las principales ventajas que ofrece Nginx se destacan:
 
 La solidez y eficiencia de Nginx lo han convertido en la opción preferida de importantes empresas como Netflix, Airbnb, Dropbox y WordPress, que confían en él para manejar el tráfico masivo de sus plataformas. Además, su capacidad para integrarse de forma fluida con herramientas modernas como Docker y Kubernetes lo posiciona como una solución indispensable en el ámbito de la computación en la nube y la infraestructura basada en contenedores.
 
-## Conclusión
-
-Dominar Nginx abre un abanico de posibilidades, desde alojar un sitio web estático hasta construir una arquitectura completa para microservicios, adaptándose a proyectos de cualquier tamaño.
-
-
 [🔙 Volver al inicio](https://github.com/HoracioGG/nginx/tree/main#readme)
