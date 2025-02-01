@@ -57,6 +57,14 @@ Estos archivos se llamaran index.html y en cada directorio abra uno correspondie
 
 ![](https://github.com/HoracioGG/nginx/blob/main/img/Web2.png)
 
+Ahora añadirmeos los dos directorios al servicio nginx para que se puedan usar y ahora vamos a modificar el archivo /etc/host para que las direcciones de las webs tengan ip y se puedan buscar desde el buscador 
+
+![](https://github.com/HoracioGG/nginx/blob/main/img/ArchivoHosts.png)
+
+Y este seria el resultado final una vez configurado y seria la visualizacion de las paginas creadas desde un buscador.
+
+![](https://github.com/HoracioGG/nginx/blob/main/img/FotosWebsDentro.png)
+
 ## f) Autentificación, Autorización y Control de acceso
 
 
