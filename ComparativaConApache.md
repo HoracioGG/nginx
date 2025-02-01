@@ -1,8 +1,5 @@
-# Comparativa con Apache
-
-![](https://github.com/HoracioGG/nginx/blob/main/img/nginx-apache.jpg)
 # Comparativa entre Apache y Nginx
-
+![](https://github.com/HoracioGG/nginx/blob/main/img/nginx-apache.jpg)
 A continuación se presenta una comparativa ampliada sobre las principales diferencias entre Apache y Nginx, incluyendo datos adicionales sobre su desempeño, ecosistema y casos de uso.
 
 ## Arquitectura y Manejo de Conexiones
