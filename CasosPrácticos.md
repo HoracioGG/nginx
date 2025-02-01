@@ -67,25 +67,47 @@ Y este seria el resultado final una vez configurado y seria la visualizacion de 
 
 ## f) Autentificación, Autorización y Control de acceso
 
+`www.web1.org se puede acceder desde la red externa y la red interna.
+www.web2.org sólo se puede acceder desde la red interna.`
 
+Para empezar vamos a modificar los sitios que estan habilitados a entrar en cada una de las webs
 
-![]()
+![](https://github.com/HoracioGG/nginx/blob/main/img/F-Confiweb1.png)
+
+![](https://github.com/HoracioGG/nginx/blob/main/img/F-Confiweb2.png)
+
+ahora modificamos el archivo hosts con las ips que permitimos tanto para red externa como interna
+
+![](https://github.com/HoracioGG/nginx/blob/main/img/F-Hosts.png)
+
+Ahora usando el comando `curl` vamos a comprobar que la red interna puede acceder a las dos paginas webs 
+
+![](https://github.com/HoracioGG/nginx/blob/main/img/ComprobacionCurls.png)
+
+Y ahora la comprobacion con la red externa
+
+![](https://github.com/HoracioGG/nginx/blob/main/img/ComprobacionRedExterna.png)
 
 ## g) Autentificación, Autorización y Control de acceso
 
+`www.web1.org contiene un directorio llamado privado.
+Configura una autentificación básica. Sólo puede acceder usuarios válidos.`
 
+![]()
 
 ![]()
 
 ## h) Autentificación, Autorización y Control de acceso
 
 
+![]()
 
 ![]()
 
 ## i)Seguridad
 
 
+![]()
 ![]()
 
 
