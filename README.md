@@ -8,4 +8,4 @@
 - [![](https://img.shields.io/badge/Casos%20prácticos-8A2BE2)](https://github.com/HoracioGG/nginx/blob/main/CasosPr%C3%A1cticos.md)
 - [![](https://img.shields.io/badge/Referencias-8A2BE2)](https://github.com/HoracioGG/nginx/blob/main/Referencias.md)
 
-[🔙 Volver al inicio](https://github.com/HoracioGG/Monitorizacion/blob/main/README.md)
+[🔙 Volver al inicio](https://github.com/HoracioGG/nginx/tree/main#readme)
