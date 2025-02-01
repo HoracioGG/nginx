@@ -1,5 +1,3 @@
-![]()
-
 # Instalación
 
 ## Instalación de nginx 
