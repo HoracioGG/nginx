@@ -1,4 +1,8 @@
-# Servidores Web: Elementos Esenciales en el Desarrollo Web
+# Introduccion
+
+Para empezar vamos a explicar lo principal de los servidores webs.
+
+## Servidores Web: Elementos Esenciales en el Desarrollo Web
 
 Uno de los elementos esenciales en el desarrollo web es el servidor, que involucra tanto componentes de hardware como de software. En esencia, se trata de una computadora equipada con un programa especializado que permite almacenar y servir archivos y datos que constituyen un sitio web, además de regular el acceso de los usuarios a dichos recursos.
 
