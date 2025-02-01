@@ -17,6 +17,10 @@ Para esta practica necesitamos configurar el primer adaptador en DHCP y el segun
 
 Despues de aplicar esta configuracion necesitamos reiniciar el servicio para que se apliquen los cambios. con un sudo restart NetworkManager.
 
+Verificamos que el servicio este funcionando.
+
+![](https://github.com/HoracioGG/nginx/blob/main/img/Verificacion-Servicio-Network.png)
+
 ![](https://github.com/HoracioGG/nginx/blob/main/img/Dos-Tarjetass.png)
 
 Aqui ya tendriamos los cambios aplicados.
