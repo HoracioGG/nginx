@@ -1,6 +1,6 @@
 # Configuracion de Nginx
 
-_En este repositorio vamos a ver como configurar y usar nginx._
+_En este repositorio vamos a ver cómo configurar y usar Nginx.._
 
 - [![](https://img.shields.io/badge/Introducción-8A2BE2)](https://github.com/HoracioGG/nginx/blob/main/Introduccion.md)
 - [![](https://img.shields.io/badge/Comparativa%20con%20Apache-8A2BE2)](https://github.com/HoracioGG/nginx/blob/main/ComparativaConApache.md)
