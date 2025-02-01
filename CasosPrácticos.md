@@ -67,8 +67,8 @@ Y este seria el resultado final una vez configurado y seria la visualizacion de 
 
 ## f) Autentificación, Autorización y Control de acceso
 
-`www.web1.org se puede acceder desde la red externa y la red interna.
-www.web2.org sólo se puede acceder desde la red interna.`
+_www.web1.org se puede acceder desde la red externa y la red interna.
+www.web2.org sólo se puede acceder desde la red interna._
 
 Para empezar vamos a modificar los sitios que estan habilitados a entrar en cada una de las webs
 
@@ -90,25 +90,42 @@ Y ahora la comprobacion con la red externa
 
 ## g) Autentificación, Autorización y Control de acceso
 
-`www.web1.org contiene un directorio llamado privado.
-Configura una autentificación básica. Sólo puede acceder usuarios válidos.`
+_www.web1.org contiene un directorio llamado privado.
+Configura una autentificación básica. Sólo puede acceder usuarios válidos._
 
-![]()
+Vamos a modificar el archivo de web1 para que solo puedan acceder usuarios validos para ello modificamos el archivo de web1
 
-![]()
+![](https://github.com/HoracioGG/nginx/blob/main/img/G-Web1.png)
+
+ahora comprobamos que web1.org/privado requiere acceso
+
+![](https://github.com/HoracioGG/nginx/blob/main/img/G-Acceso.png)
+
+Y comprobamos que tenemos acceso correcto 
+
+![](https://github.com/HoracioGG/nginx/blob/main/img/G-Comprobacion.png)
 
 ## h) Autentificación, Autorización y Control de acceso
 
+_www.web1.org contiene un directorio llamado privado.
+Desde la red externa pide autorización y desde la red interna NO._
 
-![]()
+Ahora volvemos a modificar el archivo de web1 para permitir el acceso
 
-![]()
+![](https://github.com/HoracioGG/nginx/blob/main/img/H.png)
 
 ## i)Seguridad
 
+_Configura el sitio virtual www.web1.org para que el acceso sea seguro._
 
-![]()
-![]()
+Vamos a configurarar el sito web1 para que el acceso sea seguro para esto vamos a crear una contraseña privada y la vamos a crear con este comando.
 
+`openssl req -x509 -nodes -days 365 -newkey rsa:2048 -keyout /etc/ssl/private/selfigned.key -out /etc/ssl/certs/selfsigned.crt`
+
+![](https://github.com/HoracioGG/nginx/blob/main/img/I-Key.png)
+
+y ahora vamos a modificar el archivo de web1 para que use la contraseña que hemos creado anteriormente.
+
+![](https://github.com/HoracioGG/nginx/blob/main/img/I-AplicamosCertificados.png)
 
 [🔙 Volver al inicio](https://github.com/HoracioGG/nginx/tree/main#readme)
